@@ -52,4 +52,4 @@ def xprs_index(index_name:str, data_path:str, work_dir:str) -> None:
 if __name__ == "__main__":
     p = 'C:/Users/Wooriam/PycharmProjects/krxCrawler/download/'
     wd = 'C:/Users/Wooriam/PycharmProjects/dbm/wd/'
-    xprs_index("ksbig", data_path=p, work_dir=wd)
+    xprs_index("ksmid", data_path=p, work_dir=wd)
