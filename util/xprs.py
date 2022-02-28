@@ -1,7 +1,5 @@
-from metadata.meta import WsolManage
 from system.DBmssql import MSSQL
-from datetime import datetime
-from typing import Dict, List
+from typing import Dict
 
 
 def __column_check(keys:list, columns:dict):
@@ -38,6 +36,3 @@ def xprs_table(name:str, meta_data:dict):
     )
 
 
-def xprs_rows():
-
-    ...
