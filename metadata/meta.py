@@ -127,7 +127,7 @@ class WsolManage:
                 "sigtyp"
             ]
         },
-        "bbg_gics": {
+        "bbggics": {
             "meta": {
                 "desc": "get classification from bloomberg",
                 "freq": None,
