@@ -126,7 +126,24 @@ class WsolManage:
                 "stk",
                 "sigtyp"
             ]
-        }
+        },
+        "bbg_gics": {
+            "meta": {
+                "desc": "get classification from bloomberg",
+                "freq": None,
+                "wblanks": False
+            },
+            "columns": {
+                "stk_no": "VARCHAR(6) NOT NULL",
+                "cls": "VARCHAR(100) NOT NULL",
+                "standard": "VARCHAR(100) NOT NULL"
+            },
+            "keys": [
+                "stk_no",
+                "cls",
+                "standard",
+            ]
+        },
     }
 
     raw_meta = {
@@ -155,3 +172,4 @@ class WsolManage:
             # TBD
         },
     }
+
